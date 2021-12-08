@@ -1,0 +1,7 @@
+bonjour.my_page:
+  path: "/bonjour/page"
+  defaults:
+    _controller: '\Drupal\bonjour\Controller\BonjourController::bonjour'
+    _title: "Ma première page en D9"
+  requirements:
+    _permission: "access content"
